@@ -1,0 +1,6 @@
+#include<stdio.h>
+main() {
+    //打印EOF
+	printf("%d\n", EOF);	
+	return 0;
+}
