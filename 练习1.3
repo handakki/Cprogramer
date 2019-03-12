@@ -1,0 +1,17 @@
+#include<stdio.h>
+main()
+{
+	float fahr, celsius;
+	float lower, upper, step;
+	lower = -17.0;
+	upper = 148.0;
+	step = 11.0;
+	celsius = lower;
+	printf("%12s\n","转换字符");
+	while (celsius <= upper) {
+		fahr = (9.0 * celsius) / 5.0 + 32.0;
+		
+		printf("%3.1f %6.1f\n", celsius, fahr);
+		celsius = celsius + step;
+	}
+}
